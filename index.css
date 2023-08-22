@@ -1,0 +1,169 @@
+.blue {
+  border: solid 5px blue;
+}
+
+.red {
+  border: solid 5px red;
+}
+
+.green {
+  border: solid 5px green;
+}
+
+.yellow {
+  border: solid 5px yellow;
+}
+
+.purple {
+  border: solid 5px purple;
+}
+
+.orange {
+  border: solid 5px orange;
+}
+.black {
+  border: solid 5px black;
+}
+
+.pink {
+  border: solid 5px pink;
+}
+
+body {
+  height: 100vh;
+}
+
+h2 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.root-container {
+  height: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.bg {
+  width: 40%;
+  background-image: url(/halie-west-25xggax4bSA-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.logo-container {
+  height: 150px;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-top: 250px;
+}
+
+.logo-container p {
+  color: white;
+  font-size: 50px;
+
+  font-family: "Norse", sans-serif;
+  font-weight: 700;
+  z-index: 1;
+}
+.logo-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: black;
+  opacity: 0.5;
+}
+
+.logo {
+  z-index: 1;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 1rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.attribution a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.content {
+  flex: 1;
+  align-items: center;
+}
+
+.text-container {
+  font-weight: bold;
+}
+
+.form-container {
+  flex-direction: column;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.input-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.input-container label,
+.input-container input {
+  width: 50%;
+}
+
+.first-name {
+  display: flex;
+  align-items: center;
+}
+
+.last-name {
+  display: flex;
+  align-items: center;
+}
+
+.phone-number {
+  display: flex;
+  align-items: center;
+}
+
+.email {
+  display: flex;
+  align-items: center;
+}
+
+.password {
+  display: flex;
+  align-items: center;
+}
+
+.confirm-password {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  background-color: green;
+}
