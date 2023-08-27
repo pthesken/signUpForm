@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Form</title>
-    <link rel="stylesheet" href="./reset.css" />
     <link rel="stylesheet" href="./index.css" />
     <link href="https://fonts.cdnfonts.com/css/norse" rel="stylesheet" />
+    <script src="/validate.js"></script>
     <style></style>
   </head>
   <body>
@@ -31,9 +31,10 @@
           <p>
             This is not a real online service! You know you need something like
             this in your life to help you realize your deepest dreams. Sign up
-            now to get started.
+            <i>now</i> to get started. <br />
+            <br />
+            You <i>know</i> you want to.
           </p>
-          <p>You know you want to.</p>
         </div>
 
         <div class="form-container yellow">
@@ -83,7 +84,7 @@
               <div class="input-container blue">
                 <label for="Password">Password</label>
                 <input
-                  type="text"
+                  type="password"
                   id="Password"
                   name="Password"
                   placeholder="Password"
@@ -93,21 +94,22 @@
               <div class="input-container blue">
                 <label for="Confirm Password"> Confirm Password </label>
                 <input
-                  type="text"
-                  id="Confirm Password"
-                  name="Confirm Password"
+                  type="password"
+                  id="ConfirmPassword"
+                  name="ConfirmPassword"
                   placeholder="Confirm Password"
                   required
                 />
               </div>
             </div>
           </form>
-        </div>
-        <div class="button-container orange">
-          <button>Create Account</button>
-          <div class="login black">
-            <p>Already have an account? Log in</p>
+          <div class="button-container orange">
+            <button>Create Account</button>
+            <p class="error-message"></p>
           </div>
+        </div>
+        <div class="login black">
+          <p>Already have an account? <span class="login-link">Log in</span></p>
         </div>
       </div>
     </div>
